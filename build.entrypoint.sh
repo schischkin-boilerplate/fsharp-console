@@ -17,6 +17,7 @@ dotnet add ${PROJECT_NAME}.Tests reference ${PROJECT_NAME}
 
 echo "Installing dependencies.."
 dotnet add ${PROJECT_NAME} package Logary
+dotnet add ${PROJECT_NAME} package DryIoc.dll
 dotnet add ${PROJECT_NAME}.Tests package FsUnit.xUnit
 
 echo "Done"
